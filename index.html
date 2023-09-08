@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integra</title>
+    <link rel="stylesheet" href="./css/theme.css">
+</head>
+
+<body>
+    <section id="hero">
+        <header class="header">
+            <img src="" alt="" class="logo">
+
+            <nav class="main-menu">
+                <a href="" class="menu-item">who we are</a>
+                <a href="" class="menu-item">leather</a>
+                <a href="" class="menu-item">production</a>
+                <a href="" class="menu-item">products</a>
+                <a href="" class="menu-item">news & events</a>
+                <a href="" class="menu-item">contacts</a>
+            </nav>
+        </header>
+
+        <div class="slider-container">
+            <div class="slider" id="slider">
+                <div class="slide">
+                    <img class="slide-img" src="./media/slider1.jpg" alt="">
+                    <div class="slide-content">
+                        <h2 class="slide-heading">Professionals in Leather Tanning</h2>
+                        <a href="" class="slide-btn">Contact Us</a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img class="slide-img" src="./media/slider2.jpg" alt="">
+                    <div class="slide-content">
+                        <h2 class="slide-heading">Best Local Raw Hides of Bangladesh</h2>
+                        <a href="" class="slide-btn">Contact Us</a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img class="slide-img" src="./media/slider3.jpg" alt="">
+                    <div class="slide-content">
+                        <h2 class="slide-heading">Reliable Resources of Materials and Chemicals.</h2>
+                        <a href="" class="slide-btn">Contact Us</a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img class="slide-img" src="./media/slider4.jpg" alt="">
+                    <div class="slide-content">
+                        <h2 class="slide-heading">QCs in Each and Every Stage of Production</h2>
+                        <a href="" class="slide-btn">Contact Us</a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img class="slide-img" src="./media/slider5.jpg" alt="">
+                    <div class="slide-content">
+                        <h2 class="slide-heading">Ensure Superior Quality and Finishes</h2>
+                        <a href="" class="slide-btn">Contact Us</a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img class="slide-img" src="./media/slider6.jpg" alt="">
+                    <div class="slide-content">
+                        <h2 class="slide-heading">Quality Production and Customer Satisfaction</h2>
+                        <a href="" class="slide-btn">Contact Us</a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img class="slide-img" src="./media/slider7.jpg" alt="">
+                    <div class="slide-content">
+                        <h2 class="slide-heading">Committed to Environment Protection</h2>
+                        <a href="" class="slide-btn">Contact Us</a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img class="slide-img" src="./media/slider8.jpg" alt="">
+                    <div class="slide-content">
+                        <h2 class="slide-heading">Integra Your Fashion, Trends _ Style</h2>
+                        <a href="" class="slide-btn">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slider-bottom">
+            <div class="slide-number">
+                0<span id="slider-number">1 / 08</span>
+            </div>
+            <div class=" slider-nav">
+                <div id="prev">&lt;</div>
+                <div id="next">&gt;</div>
+            </div>
+        </div>
+    </section>
+
+
+    <script>
+        // JavaScript for the image slider
+        const slider = document.getElementById("slider");
+        const prevButton = document.getElementById("prev");
+        const nextButton = document.getElementById("next");
+        const sliderNumber = document.getElementById("slider-number");
+
+        let currentIndex = 0;
+        const numSlides = '08';
+
+        function updateSlider() {
+            slider.style.transform = `translateX(-${currentIndex * 100}%)`;
+            sliderNumber.textContent = `${currentIndex + 1} / ${numSlides}`;
+        }
+
+        nextButton.addEventListener("click", () => {
+            currentIndex = (currentIndex + 1) % numSlides;
+            updateSlider();
+        });
+
+        prevButton.addEventListener("click", () => {
+            currentIndex = (currentIndex - 1 + numSlides) % numSlides;
+            updateSlider();
+        });
+
+        setInterval(() => {
+            currentIndex = (currentIndex + 1) % numSlides;
+            updateSlider();
+        }, 5000);
+    </script>
+</body>
+
+</html>

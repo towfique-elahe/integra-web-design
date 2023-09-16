@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Integra | News & Events</title>
+    <title>Integra | Single Blog</title>
     <link rel="shortcut icon" href="/media/integra-leather-favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="/css/theme.css">
 </head>
 
 <body>
     <!-- wet blue -->
-    <section id="blogs">
+    <section id="blog">
         <header class="header">
             <div class="container">
                 <a href="/index.html" class="logo-container">
@@ -46,7 +46,17 @@
                     </div>
                     <a href="/production.html" class="nav-item">production</a>
                     <a href="/products.html" class="nav-item">products</a>
-                    <a href="/news-events.html" class="nav-item">news & events</a>
+                    <div class="nav-item">
+                        news & events
+                        <div class="sub-nav">
+                            <a href="/news-events/blog-list.html" class="sub-nav-item">
+                                news list
+                            </a>
+                            <a href="/news-events/single-blog.html" class="sub-nav-item">
+                                single post
+                            </a>
+                        </div>
+                    </div>
                     <a href="/contacts.html" class="nav-item">contacts</a>
                 </nav>
 
@@ -91,60 +101,45 @@
 
         <!-- main content -->
         <div class="container">
-            <h1 class="heading">
-                news & events
+            <h1 class="blog-title">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, consequuntur.
             </h1>
+            <article class="blog-content">
+                <p class="blog-date">Published 14 Jul, 2023</p>
+                <img src="/media/OFFICE-BAG-5.jpg" alt="" class="blog-banner">
 
-            <div class="blogs">
-                <div class="blog">
-                    <img src="/media/OFFICE-BAG-5.jpg" alt="" class="blog-img">
-                    <p class="blog-date">
-                        14 jun
-                    </p>
-                    <div class="blog-content">
-                        <h3 class="blog-title">
-                            Goods for all time
-                        </h3>
-                        <p class="blog-summary">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard dummy text ever since the 1500s,
-                        </p>
-                        <a href="" class="blog-link">see more ...</a>
-                    </div>
-                </div>
-                <div class="blog">
-                    <img src="/media/FULL-VEG-COW-2.jpg" alt="" class="blog-img">
-                    <p class="blog-date">
-                        14 jun
-                    </p>
-                    <div class="blog-content">
-                        <h3 class="blog-title">
-                            Goods for all time
-                        </h3>
-                        <p class="blog-summary">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard dummy text ever since the 1500s,
-                        </p>
-                        <a href="" class="blog-link">see more ...</a>
-                    </div>
-                </div>
-                <div class="blog">
-                    <img src="/media/SINGLE-BUTT-SPLITS-4.jpg" alt="" class="blog-img">
-                    <p class="blog-date">
-                        14 jun
-                    </p>
-                    <div class="blog-content">
-                        <h3 class="blog-title">
-                            Goods for all time
-                        </h3>
-                        <p class="blog-summary">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard dummy text ever since the 1500s,
-                        </p>
-                        <a href="" class="blog-link">see more ...</a>
-                    </div>
-                </div>
-            </div>
+                <p class="para">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                    dolor.
+                    Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+                    mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa
+                    quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo,
+                    rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.
+                    Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend
+                    tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. </p>
+
+                <h3 class="blog-heading">Typography</h3>
+                <p class="para">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                    dolor.
+                    Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+                    mus.</p>
+                <h5 class="blog-heading">Bullet Points:</h5>
+                <ul class="list">
+                    <li>Lorem ipsum dolor sit amet consectetuer.</li>
+                    <li>Aenean commodo ligula eget dolor.</li>
+                    <li>Aenean massa cum sociis natoque penatibus.</li>
+                </ul>
+                <ol class="list">
+                    <li>Lorem ipsum dolor sit amet consectetuer.</li>
+                    <li>Aenean commodo ligula eget dolor.</li>
+                    <li>Aenean massa cum sociis natoque penatibus.</li>
+                </ol>
+                <h5 class="blog-heading">Quote Example:</h5>
+                <blockquote>
+                    <p class="para">You might not think that programmers are artists, but programming is an
+                        extremely creative profession. It's logic-based creativity.</p>
+                    <footer class="para">John Romero</footer>
+                </blockquote>
+            </article>
         </div>
     </section>
 
@@ -171,7 +166,7 @@
                         <a href="/products.html">Products</a>
                     </li>
                     <li>
-                        <a href="/news-events.html">News & Event</a>
+                        <a href="/news-events/blog-list.html">News & Event</a>
                     </li>
                     <li>
                         <a href="/contacts.html">Contacts</a>

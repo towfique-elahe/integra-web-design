@@ -219,6 +219,7 @@ a {
   padding: 0.5rem;
   transition: ease 0.3s;
   position: relative;
+  cursor: pointer;
 }
 .header .sub-nav {
   position: absolute;
@@ -1297,4 +1298,33 @@ a {
   object-fit: cover;
   border: solid 1px var(--clr2);
   border-radius: 0.5rem;
+}
+
+/* single blog page */
+#blog .blog-title {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+#blog .blog-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+#blog .blog-date {
+  width: fit-content;
+  font-size: 1rem;
+  background-color: var(--clr3);
+  color: var(--clr5);
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+}
+#blog .blog-banner {
+  width: 100%;
+  height: 40rem;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+#blog .blog-heading {
+  font-size: 2rem;
+  margin-top: 2rem;
 }

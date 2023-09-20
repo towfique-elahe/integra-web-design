@@ -1,4 +1,4 @@
-<p align="center"><a href="" target="_blank"><img src="https://github.com/towfique-elahe/integra-wp-theme/assets/68939516/de2d1a1c-32f6-43df-acb3-258d483fa6fc" width="250" alt="Logo"></a></p>
+<p align="center"><a href="" target="_blank"><img src="https://github.com/towfique-elahe/integra-web-design/assets/68939516/4f3e3d34-1fb9-42e1-a13e-08d808421db0" width="250" alt="Logo"></a></p>
 
 # About Integra
 
@@ -24,3 +24,13 @@ The website is organized into several directories and files:
 - `news-events/`: This directory has 2 pages - blog list and single blog post
 - `who-we-are/`: This directory has 2 pages - company and founder page
 - `contacts.html` `production.html` `products.html`: These pages are other essential pages
+
+## License
+
+This project is licensed under the [GNU Affero General Public License v3.0](https://choosealicense.com/licenses/agpl-3.0/)
+
+## Screenshots
+![Web capture_20-9-2023_223636_integra-web-design vercel app](https://github.com/towfique-elahe/integra-web-design/assets/68939516/67ea9195-ced7-467f-bef8-98e47253fe6d)
+
+
+© 2023 Towfique Elahe. All rights reserved.

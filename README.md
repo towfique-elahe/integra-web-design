@@ -33,4 +33,6 @@ This project is licensed under the [GNU Affero General Public License v3.0](http
 ![Web capture_20-9-2023_223636_integra-web-design vercel app](https://github.com/towfique-elahe/integra-web-design/assets/68939516/67ea9195-ced7-467f-bef8-98e47253fe6d)
 
 
-© 2023 Towfique Elahe. All rights reserved.
+<p align="center">
+  © 2023 Towfique Elahe. All rights reserved.
+</p>

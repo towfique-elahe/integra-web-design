@@ -27,7 +27,7 @@ The website is organized into several directories and files:
 
 ## License
 
-This project is licensed under the [GNU Affero General Public License v3.0](https://choosealicense.com/licenses/agpl-3.0/)
+This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/)
 
 ## Screenshots
 ![Web capture_20-9-2023_223636_integra-web-design vercel app](https://github.com/towfique-elahe/integra-web-design/assets/68939516/67ea9195-ced7-467f-bef8-98e47253fe6d)

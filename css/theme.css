@@ -1268,7 +1268,8 @@ a {
 #founder .founder-img {
   width: 100%;
   max-width: 45rem;
-  height: 55rem;
+  height: 100%;
+  max-height: 38rem;
   object-fit: cover;
   border-radius: 0.5rem;
   border: solid 2px var(--clr2);
